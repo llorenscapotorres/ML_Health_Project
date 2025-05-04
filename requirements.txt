@@ -4,3 +4,4 @@ scikit-learn
 pycaret
 matplotlib
 seaborn
+mlflow

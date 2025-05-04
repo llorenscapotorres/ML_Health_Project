@@ -1,0 +1,49 @@
+artifact_path: brca_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 130861
+model_uuid: 13a33d13339742c580fd3fa05e0211f9
+prompts: null
+run_id: 2a996c437e0244ae849119b908efb6d2
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "double",
+    "name": "Protein1", "required": true}, {"type": "double", "name": "Protein2",
+    "required": true}, {"type": "double", "name": "Protein3", "required": true}, {"type":
+    "double", "name": "Protein4", "required": true}, {"type": "boolean", "name": "Gender_FEMALE",
+    "required": true}, {"type": "boolean", "name": "Gender_MALE", "required": true},
+    {"type": "boolean", "name": "Tumour_Stage_I", "required": true}, {"type": "boolean",
+    "name": "Tumour_Stage_II", "required": true}, {"type": "boolean", "name": "Tumour_Stage_III",
+    "required": true}, {"type": "boolean", "name": "Histology_Infiltrating Ductal
+    Carcinoma", "required": true}, {"type": "boolean", "name": "Histology_Infiltrating
+    Lobular Carcinoma", "required": true}, {"type": "boolean", "name": "Histology_Mucinous
+    Carcinoma", "required": true}, {"type": "boolean", "name": "ER status_Positive",
+    "required": true}, {"type": "boolean", "name": "PR status_Positive", "required":
+    true}, {"type": "boolean", "name": "HER2 status_Negative", "required": true},
+    {"type": "boolean", "name": "HER2 status_Positive", "required": true}, {"type":
+    "boolean", "name": "Surgery_type_Lumpectomy", "required": true}, {"type": "boolean",
+    "name": "Surgery_type_Modified Radical Mastectomy", "required": true}, {"type":
+    "boolean", "name": "Surgery_type_Other", "required": true}, {"type": "boolean",
+    "name": "Surgery_type_Simple Mastectomy", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-04 19:22:40.563504'

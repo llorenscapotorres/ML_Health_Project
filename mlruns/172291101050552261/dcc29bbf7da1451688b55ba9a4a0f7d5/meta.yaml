@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/172291101050552261/dcc29bbf7da1451688b55ba9a4a0f7d5/artifacts
+end_time: 1746387113824
+entry_point_name: ''
+experiment_id: '172291101050552261'
+lifecycle_stage: active
+run_id: dcc29bbf7da1451688b55ba9a4a0f7d5
+run_name: colorful-jay-51
+run_uuid: dcc29bbf7da1451688b55ba9a4a0f7d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746387108824
+status: 3
+tags: []
+user_id: Usuario
